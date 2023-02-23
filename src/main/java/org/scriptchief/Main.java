@@ -20,13 +20,16 @@ public class Main {
       //  int resultWealthy =  richCustomer.richestCustomer(intArray);
      //   System.out.println(resultWealthy);
 
-        FizzBuzz fizzBuzz = new FizzBuzz();
-        String[] resultFizzBuzz = new String[15];
-        resultFizzBuzz = fizzBuzz.getFizzBuzz(15);
-        for(int i = 0; i<resultFizzBuzz.length;i++){
-            System.out.println(resultFizzBuzz[i]);
-        }
+       // FizzBuzz fizzBuzz = new FizzBuzz();
+       // String[] resultFizzBuzz = new String[15];
+       // resultFizzBuzz = fizzBuzz.getFizzBuzz(15);
+        //for(int i = 0; i<resultFizzBuzz.length;i++){
+       //     System.out.println(resultFizzBuzz[i]);
+       // }
 
+        StepsToReduce stepTorRed = new StepsToReduce();
+        int resultReduce = stepTorRed.steptoClassResult(15);
+        System.out.println(resultReduce);
 
 
     }
