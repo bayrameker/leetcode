@@ -28,7 +28,7 @@ public class Main {
        // }
 
         StepsToReduce stepTorRed = new StepsToReduce();
-        int resultReduce = stepTorRed.steptoClassResult(15);
+        int resultReduce = stepTorRed.stepToClassBetter(15);
         System.out.println(resultReduce);
 
 
