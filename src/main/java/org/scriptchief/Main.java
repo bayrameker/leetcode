@@ -1,5 +1,7 @@
 package org.scriptchief;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -27,10 +29,17 @@ public class Main {
        //     System.out.println(resultFizzBuzz[i]);
        // }
 
-        StepsToReduce stepTorRed = new StepsToReduce();
-        int resultReduce = stepTorRed.stepToClassBetter(15);
-        System.out.println(resultReduce);
+       // StepsToReduce stepTorRed = new StepsToReduce();
+       // int resultReduce = stepTorRed.stepToClassBetter(15);
+       // System.out.println(resultReduce);
+
+
+        MiddleLikedList middleLinkedList = new MiddleLikedList();
+        ArrayList<ListNode> arrayList = new ArrayList<ListNode>();
+
+
 
 
     }
+
 }
