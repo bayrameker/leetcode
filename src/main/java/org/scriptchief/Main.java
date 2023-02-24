@@ -34,10 +34,12 @@ public class Main {
        // System.out.println(resultReduce);
 
 
-        MiddleLikedList middleLinkedList = new MiddleLikedList();
-        ArrayList<ListNode> arrayList = new ArrayList<ListNode>();
+       // MiddleLikedList middleLinkedList = new MiddleLikedList();
+       // ArrayList<ListNode> arrayList = new ArrayList<ListNode>();
 
-
+        RansomNote ransomNote = new RansomNote();
+        boolean resultRansomNote = ransomNote.getRansomNoteBetter("aag", "aagb");
+        System.out.println(resultRansomNote);
 
 
     }
